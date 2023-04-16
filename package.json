@@ -1,0 +1,26 @@
+{
+  "name": "dg-fe",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+
+  "source": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/bewpoleved23/dg-fe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/bewpoleved23/dg-fe/issues"
+  },
+  "homepage": "https://bitbucket.org/bewpoleved23/dg-fe#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch ./src --exec './dev.sh' --ext html,css,js",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
