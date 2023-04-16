@@ -195,7 +195,7 @@
         };
 
         try {
-            loc = fetch("https://api.ipgeolocation.io/ipgeo?apiKey=09d10b181cb84b4f9c2a10bae1a8dd5c")
+            fetch("https://api.ipgeolocation.io/ipgeo?apiKey=09d10b181cb84b4f9c2a10bae1a8dd5c")
             .then(res=>res.json())
             .then(res=>{
                 locObj.country_name = res.country_name;
@@ -205,7 +205,7 @@
 
             })
         } catch(err){
-
+            console.log(err);
         }
 
         let form = document.forms[0];
