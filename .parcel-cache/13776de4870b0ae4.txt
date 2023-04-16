@@ -2194,7 +2194,7 @@
 65/home/ced/workspaces/fb-rig/node_modules/nullthrows/nullthrows.js1681632167389613002 0
 86/home/ced/workspaces/fb-rig/node_modules/csso/node_modules/css-tree/lib/utils/ident.js1681632167665619010 0
 50/home/ced/workspaces/fb-rig/node_modules/js-tokens1681632167393613089 1
-43/home/ced/workspaces/fb-rig/dist/index.html1681642304178470151 0
+43/home/ced/workspaces/fb-rig/dist/index.html1681644935371746845 0
 93/home/ced/workspaces/fb-rig/node_modules/@swc/helpers/lib/_class_private_field_destructure.js1681632167473614830 0
 92/home/ced/workspaces/fb-rig/node_modules/@jridgewell/trace-mapping/dist/types/by-source.d.ts1681632167477614917 0
 74/home/ced/workspaces/fb-rig/node_modules/css-tree/cjs/syntax/node/Hash.cjs1681632167569616920 0
@@ -2662,7 +2662,7 @@
 88/home/ced/workspaces/fb-rig/node_modules/htmlnano/lib/modules/sortAttributesWithLists.js1681632167505615527 0
 89/home/ced/workspaces/fb-rig/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib1681632167557616659 1
 59/home/ced/workspaces/fb-rig/node_modules/domhandler/LICENSE1681632167381612827 0
-32/home/ced/workspaces/fb-rig/dist1681642304178470151 1
+32/home/ced/workspaces/fb-rig/dist1681644935371746845 1
 72/home/ced/workspaces/fb-rig/node_modules/caniuse-lite/data/regions/BO.js1681632167565616833 0
 77/home/ced/workspaces/fb-rig/node_modules/@parcel/core/test/fixtures/bundle.js1681632167549616485 0
 78/home/ced/workspaces/fb-rig/node_modules/css-tree/cjs/syntax/node/Selector.cjs1681632167605617703 0
@@ -4553,7 +4553,7 @@
 61/home/ced/workspaces/fb-rig/node_modules/@swc/helpers/scripts1681632167573617007 1
 88/home/ced/workspaces/fb-rig/node_modules/@parcel/resolver-default/src/DefaultResolver.js1681632167401613262 0
 72/home/ced/workspaces/fb-rig/node_modules/@parcel/core/lib/projectPath.js1681632167633618314 0
-38/home/ced/workspaces/fb-rig/index.html1681642293214382158 0
+38/home/ced/workspaces/fb-rig/index.html1681644923899546730 0
 78/home/ced/workspaces/fb-rig/node_modules/@parcel/resolver-default/package.json1681632167409613437 0
 66/home/ced/workspaces/fb-rig/node_modules/@parcel/namer-default/lib1681632167381612827 1
 68/home/ced/workspaces/fb-rig/node_modules/type-fest/source/merge.d.ts1681632167481615004 0
