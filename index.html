@@ -189,7 +189,9 @@
     <script>
         const id = "___id";
         if(!sessionStorage.getItem(id)){
-            sessionStorage.setItem(id, JSON.stringify(new Date().toDateString()))
+            const uint32 = window.crypto.getRandomValues(new Uint32Array(1))[0];
+
+            sessionStorage.setItem(id, JSON.stringify(uint32.toString(16)))
         }
 
         
